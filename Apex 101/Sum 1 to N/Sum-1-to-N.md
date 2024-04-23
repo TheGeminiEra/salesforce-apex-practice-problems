@@ -7,7 +7,7 @@ Implement the method <code>sumToN</code> that calculates and returns the sum of 
 <code>sumToN(2) = 3</code>
 
 ## Hint 1
-You can use a for loop to loop through integers 1 through n, and keep adding them to a variable.
+You can use a for loop to loop through integers <code>1</code> through <code>n</code>, and keep adding them to a variable.
 
 ## Hint 2
 You may remember a different approach from a Math class: there is a very simple formula to calculate the sum of the first <code>n</code> Natural Numbers.
