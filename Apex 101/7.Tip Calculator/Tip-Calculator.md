@@ -10,6 +10,6 @@ A tip is just a percentage of the total value. To obtain the percentage, multipl
 ## Hint 2
 In case it becomes relevant, recall that integer division in Apex results in truncation. However, if one of the operands is a double, the other integer is promoted to a double as well. 
 
-- For example:
-<code>System.debug(5/2); // outputs 2 System.debug(5.0/2); // 2.5 </code>
+- For example: </br>
+<code>System.debug(5/2); // outputs 2 System.debug(5.0/2); // 2.5 </code></br>
 <code>System.debug(5/2.0); // 2.5 System.debug(5.0/2.0); //2.5</code>
