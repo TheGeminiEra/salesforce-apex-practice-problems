@@ -1,6 +1,6 @@
 # #126 - Insert Student
 
-Note: This problem requires installation of a packaged data model. (Install package in your org)[https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5f000000Gx6CAAS] and (read up on the data model)[https://gist.github.com/maujood/9bca1e95a9fe39b1cb881a116873d83e]
+Note: This problem requires installation of a packaged data model. [Install package in your org](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5f000000Gx6CAAS) and [read up on the data model](https://gist.github.com/maujood/9bca1e95a9fe39b1cb881a116873d83e)
 
 The method <code>insertStudent</code> takes as input strings <code>name</code> and <code>email</code>, and returns a record ID. Implement the method to insert an <code>apxio__Student__c</code> record with the Name and <code>apxio__Email__c</code> fields filled out, and return the <code>Id</code> of the new record.
 
