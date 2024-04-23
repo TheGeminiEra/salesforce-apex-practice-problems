@@ -4,11 +4,11 @@ Implement the method <code>isTypeAccount()</code>, which accepts a sObject as in
 
 Given the following test code:
 
-<code>Account acc = new Account(name='Apple')</code>
-<code>Boolean result = isTypeAccount(acc);</code>
+<code>Account acc = new Account(name='Apple')</code></br>
+<code>Boolean result = isTypeAccount(acc);</code></br>
 <code>result</code> should be equal to <code>true</code>
 
 ## Hint 1
 Use instanceof method
 
-(Documentation)[https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_keywords_instanceof.htm]
+[Documentation](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_keywords_instanceof.htm)
