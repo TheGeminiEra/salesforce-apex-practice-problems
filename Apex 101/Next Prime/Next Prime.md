@@ -2,7 +2,7 @@
 
 A prime number is a number greater than 1 that is not evenly divisible by any number greater than one and smaller than itself. For example, 13 is a prime number because it is not evenly divisible by any number from 2 to 12.
 
-Implement the function <code>nextPrime</code> that takes as input an integer </code>num<code> and returns the smallest prime number greater than </code>num<code>.
+Implement the function <code>nextPrime</code> that takes as input an integer <code>num</code> and returns the smallest prime number greater than <code>num</code>.
 
 <code>nextPrime(10) = 11</code>. 11 is the smallest prime number greater than 10
 
