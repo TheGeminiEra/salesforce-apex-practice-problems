@@ -9,7 +9,7 @@ Implement the function <code>isPrime</code> that takes as input an integer great
 <code>isPrime(23) = true</code>. 23 is a prime number because it is not evenly divisible by any number from 2 to 22.
 
 ## Hint 1
-Use the Math.mod function to calculate the remainder after a division. A return value of 0 means the first argument was evenly divisible by the second.
+Use the <code>Math.mod</code> function to calculate the remainder after a division. A return value of 0 means the first argument was evenly divisible by the second.
 
 # Hint 2
-Loop through all Integers from 2 to num - 1, and test for divisibility for each.
+Loop through all Integers from <code>2</code> to <code>num - 1</code>, and test for divisibility for each.
