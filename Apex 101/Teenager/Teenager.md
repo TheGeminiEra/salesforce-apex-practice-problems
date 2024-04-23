@@ -1,9 +1,10 @@
-#18 - Teenager+100 points
-Given a person's age, return true if the person is a teenager (age 13 - 19).
+# #18 - Teenager
+Given a person's age, return <code>true</code> if the person is a teenager (age 13 - 19).
 
-isTeenager(5) = false
+<code>isTeenager(5) = false</code>
 
-isTeenager(15) = true
-Hint 1
+<code>isTeenager(15) = true</code>
 
-Use an if/else statement, checking if the age is greater than or equal to 13 and less than or equal to 19. Return true or false depending on the result of the comparison.
+## Hint 1:
+
+Use an <code>if/else</code> statement, checking if the age is greater than or equal to 13 and less than or equal to 19. Return <code>true</code> or <code>false</code> depending on the result of the comparison.
