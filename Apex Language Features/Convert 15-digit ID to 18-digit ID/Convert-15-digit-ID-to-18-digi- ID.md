@@ -1,6 +1,6 @@
 # #93 - Convert 15-digit ID to 18-digit ID
 
-Implement the method <code>convert15to18DigitId()</code> , which accepts a String of length 15 digit and returns a new String with 18 digit salesforce Id. If the input string length is not equal to 15 digits, then return </code>'-1'<code>.
+Implement the method <code>convert15to18DigitId()</code> , which accepts a String of length 15 digit and returns a new String with 18 digit salesforce Id. If the input string length is not equal to 15 digits, then return <code>'-1'</code>.
 
 Given the following test code:
 
@@ -16,4 +16,4 @@ Given the following test code:
 ## Hint 1
 Try to use Id instead of String data type.
 
-Reference: (Difference Between 15 and 18 Digit Record Id - Salesforce Developer Community)[https://trailhead.salesforce.com/trailblazer-community/feed/0D54V00007T4AezSAF]
+Reference: [Difference Between 15 and 18 Digit Record Id - Salesforce Developer Community](https://trailhead.salesforce.com/trailblazer-community/feed/0D54V00007T4AezSAF)
