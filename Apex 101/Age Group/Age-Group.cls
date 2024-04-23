@@ -1,0 +1,12 @@
+public String ageGroup(Integer n) {
+    // Use if and else if statements to determine the correct age group and return it
+    if (n >= 0 && n <= 1) {
+        return 'Infant';
+    } else if (n >= 2 && n <= 14) {
+        return 'Child';
+    } else if (n >= 15 && n <= 21) {
+        return 'Youth';
+    } else {
+        return 'Adult';
+    }
+}
