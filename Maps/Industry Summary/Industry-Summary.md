@@ -4,17 +4,17 @@ The method industrySummary takes as input a list of accounts with Industry and A
 
 For example, given the following accounts:
 
-**a1**
+**a1**</br>
 <code>Name: 'Acme Enterprises'</code></br>
 <code>Industry: 'Banking'</code></br>
 <code>AnnualRevenue: 550,000</code>
 
-**a2**
+**a2**</br>
 <code>Name: 'Universal Containers'</code></br>
 <code>Industry: 'Retail'</code></br>
 <code>AnnualRevenue: 200,000</code>
 
-**a3**
+**a3**</br>
 <code>Name: 'SForce Capital'</code></br>
 <code>Industry: 'Banking'</code></br>
 <code>AnnualRevenue: 450,000</code>
