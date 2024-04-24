@@ -4,15 +4,15 @@ The method <code>casesByType</code> takes as input a list of cases and returns a
 
 For example, given the following cases:
 
-**c1**
+**c1**</br>
 <code>Subject: 'Power does not come on'</code></br>
 <code>Type: 'Electrical'</code>
 
-**c2**
+**c2**</br>
 <code>Subject: 'Several switches not responding'</code></br>
 <code>Type: 'Electrical'</code>
 
-**c3**
+**c3**</br>
 <code>Subject: 'Lever jammed - cannot run machine'</code></br>
 <code>Type: 'Structural'</code>
 The method call <code>casesByType(new List {c1, c2, c3})</code> should return a map containing the following key/value pairs:
