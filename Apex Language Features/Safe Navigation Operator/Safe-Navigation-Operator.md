@@ -4,10 +4,10 @@ Implement the method <code>getAccountBillingCityWithSafeNavigation</code>, which
 
 Given the following test code:
 
-<code>List<Account> acts = new ListList<Account>();
-<code>acts.add(new Account(Name = 'Acme', BillingCity = 'Chicago'));
-<code>acts.add(new Account(Name = 'Dove', BillingCity = 'Boston'));
-<code>String result = getAccountBillingCityWithSafeNavigation(acts);
+<code>List<Account> acts = new ListList<Account>();</code></br>
+<code>acts.add(new Account(Name = 'Acme', BillingCity = 'Chicago'));</code></br>
+<code>acts.add(new Account(Name = 'Dove', BillingCity = 'Boston'));</code></br>
+<code>String result = getAccountBillingCityWithSafeNavigation(acts);</code>
 
 <code>result</code> should be <code>'CHICAGO'</code>
 
