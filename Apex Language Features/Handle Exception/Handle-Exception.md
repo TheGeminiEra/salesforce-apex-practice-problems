@@ -9,7 +9,7 @@ Given the following test code:</br>
 
 Given the following test code:</br>
 <code>String result = divide(100, 18);</code></br>
-<code>result</code> should be '5';. The result of integer division <code>100/19</code> is <code>r5</code> with a remainder of <code>10</code>.
+<code>result</code> should be '5';. The result of integer division <code>100/19</code> is <code>5</code> with a remainder of <code>10</code>.
 
 ## Hint 1
 Dividing two integers evaluates to an integer, but the method's return type is String. Use the <code>[String.valueOf](https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_string.htm#apex_System_String_valueOf_5)</code> method to convert an Integer to a String.
