@@ -11,6 +11,7 @@ Given the following test code:</br>
 <code>List<Account> accounts = new List<Account>();</code></br>
 <code>accounts.add(new Account(name ='Salesforce', BillingCity ='Boston'));</code></br>
 <code>accounts.add(new Account(name ='Microsoft'));</code></br>
+
 The method <code>callcheckAccounts(accounts);</code> should fail, throwing an <code>AccountException</code>.
 
 ## Hint 1
@@ -19,7 +20,7 @@ Use the <code>throw</code> keyword to throw an exception. [Learn more about exce
 
 ## Hint 2
 
-IllegalArgumentException is a built-in Apex exception that you can throw. [Learn more about built-in apex exceptions on the documentation.](https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_exception_methods.htm)
+<code>IllegalArgumentException</code> is a built-in Apex exception that you can throw. [Learn more about built-in apex exceptions on the documentation.](https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_exception_methods.htm)
 
 ## Hint 3
 
