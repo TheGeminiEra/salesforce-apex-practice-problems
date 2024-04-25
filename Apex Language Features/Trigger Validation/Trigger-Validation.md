@@ -4,6 +4,7 @@ Implement the method <code>validateInsert</code>, which accepts a newly inserted
 
 Please see the code snippet below for an example of how such a method can be used for custom validation in a before trigger:
 
+```apex
 Trigger OpportunityTrigger on Opportunity (before insert){ 
     if (Trigger.isBefore){ 
         OpportunityTriggerHandler handler = 
@@ -12,9 +13,11 @@ Trigger OpportunityTrigger on Opportunity (before insert){
             handler.validateInsert(Trigger.new);
     }
 }
+```
 
 Given the following test code:
 
+```apex
 List<Opportunity> oppList = new List<Opportunity>();
 oppList.add(new Opportunity(
     StageName = 'Closed Lost', Description = 'Testing'));
@@ -26,6 +29,7 @@ oppList.add(new Opportunity(
     StageName = 'Qualification'));
 
 validateInsert(oppList);
+```
 
 <code>oppList</code> should now contain 1 error message on 2nd record of the list with proper error message on the Description field.
 
