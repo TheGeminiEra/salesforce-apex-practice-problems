@@ -13,7 +13,7 @@ You will be working with the following custom object and field names for this pr
 
 ## Hint 1
 
-When records are inserted, the Id is available immediately available on the record, but other fields that were changed or populated as a result of the insert are not.
+When records are inserted, the <code>Id</code> is available immediately available on the record, but other fields that were changed or populated as a result of the insert are not.
 
 ## Hint 2
 
