@@ -28,6 +28,6 @@ Reference: [Salesforce Documentation: Custom list sorting](https://developer.sal
 
 ## Hint 2
 
-If facing the error `<font color="red">Enclosing type for global methods in apex classes must be declared as global</font>`
+If facing the error <font color="red">Enclosing type for global methods in apex classes must be declared as global</font>
 
 Use <code>public</code> instead of <code>global</code> while declaring wrapper class and overriding <code>compareTo</code> method. The global keyword does not work Apex code is executed in an anonymous call.
